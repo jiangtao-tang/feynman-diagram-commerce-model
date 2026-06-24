@@ -56,7 +56,7 @@ The model introduces the conceptual framework of **Quantum Field Theory's Feynma
 ### 4. Programmable Credit System
 - Three-dimensional initial credit generation: **asset staking (40%) + VC endorsement (30%) + social guarantee (30%)**.
 - New merchants can obtain an initial credit score of **75/100**.
-
+### 5. Compatible with ERC-8004 / ERC-8126 / ERC-8183
 ---
 
 ## 📊 Feynman Diagram Analogy
