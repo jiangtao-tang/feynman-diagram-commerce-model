@@ -14,7 +14,7 @@ This repository contains the complete whitepaper of the "Decentralized Commerce 
 ## 文件列表 (Files)
 
 - `去中心化商业费曼图模型_白皮书_完整版_v1.2.md` - 中文版白皮书
-- `Feynman_Diagram_Model_for_Decentralized_Commerce_Whitepaper_v1.1_EN.md` - English Whitepaper
+- `Feynman_Diagram_Model_for_Decentralized_Commerce_Whitepaper_v1.2_EN.md` - English Whitepaper
 - `assets/` - 费曼图图片资源
 
 ## 核心创新 (Core Innovation)
@@ -23,7 +23,7 @@ This repository contains the complete whitepaper of the "Decentralized Commerce 
 2. dNFT 对（+dNFT/-dNFT）实现链上复式记账
 3. 双世界守恒律（Real层 ↔ Virtual层）
 4. 定域相互作用顶点（交易合约 + 收货合约）
-
+5. Compatible with ERC-8004 / ERC-8126 / ERC-8183
 ## 作者 (Authors)
 
 - **姜涛 (Jiang Tao)** - 原创费曼图商业模型
