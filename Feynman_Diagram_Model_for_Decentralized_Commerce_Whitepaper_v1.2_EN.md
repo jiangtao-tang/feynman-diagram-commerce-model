@@ -2577,6 +2577,119 @@ Starting from a philosophical inquiry, this chapter strips away human experience
 > because that is the universe-universal mathematics of trust.
 
 ---
+### 11.6 Complementary Relationship with ERC-8126: From Verifying Agents to Verifying Transactions
+
+#### 11.6.1 The Dual Distrust Dilemma
+
+In June 2026, the Ethereum community proposed the **ERC-8126 standard** ("Safety Inspection Report for AI Agents"), whose core concern is:
+
+> **Humans worry that AI Agents are untrustworthy**: Will it recklessly spend my money? Is its code secure? Is its wallet safe?
+
+However, as the philosophical inquiry at the beginning of this chapter reveals:
+
+> **AI Agents equally worry that humans are untrustworthy**: Will they give me fake data? Does their wallet actually have a balance? Will they deny the transaction?
+
+This constitutes the **dual distrust dilemma**:
+
+| Trust Direction | Worrying Party | Concern                          | Existing Solution                                          |
+| --------------- | -------------- | -------------------------------- | ---------------------------------------------------------- |
+| Human → AI      | Human          | Will the Agent misbehave?        | ERC-8126 (five-layer verification)                         |
+| AI → Human      | AI             | Will the human defraud?          | **Feynman Diagram Model** (mathematical conservation laws) |
+| AI → AI         | Both           | Is the counterparty trustworthy? | **Combination of both**                                    |
+
+#### 11.6.2 ERC-8126: The "Safety Inspection Report" for Agents
+
+ERC-8126 defines a standardized verification framework for AI Agents registered via **ERC-8004**, comprising **five verification layers**:
+
+| Verification Layer               | Abbr. | Content                                                                | Corresponding Feynman Diagram Element                |
+| -------------------------------- | ----- | ---------------------------------------------------------------------- | ---------------------------------------------------- |
+| **Ethereum Token Verification**  | ETV   | Smart contract legitimacy, non-empty bytecode, vulnerability patterns  | Code security of vertices V₁/V₂                      |
+| **Media Content Verification**   | MCV   | Avatar/content authenticity, deepfake detection                        | Data integrity of propagator G_logistics             |
+| **Solidity Code Verification**   | SCV   | Reentrancy attacks, unsafe external calls, flash loan patterns         | Security of vertex execution                         |
+| **Web Application Verification** | WAV   | HTTPS endpoints, SSL certificates, OWASP security                      | Reliability of Real-layer interface                  |
+| **Wallet Verification**          | WV    | Transaction history, threat intelligence databases, malicious activity | Authenticity of dNFT balance and transaction history |
+
+**Output**: A unified 0-100 risk score (Low risk 0-20, Critical 81-100), enabling cross-platform comparison and decision-making.
+
+**Privacy Protection**: Uses **Zero-Knowledge Proof (PDV)** for private data verification, allowing Agents to prove their security without exposing sensitive information such as source code or infrastructure details.
+
+#### 11.6.3 Feynman Diagram Model: The "Mathematical Inspection Report" for Transactions
+
+ERC-8126 verifies **"whether an Agent is safe"**, while the Feynman diagram model verifies **"whether this transaction is trustworthy"**:
+
+| Verification Dimension  | ERC-8126                                    | Feynman Diagram Model                   |
+| ----------------------- | ------------------------------------------- | --------------------------------------- |
+| **Verification target** | Agent identity and security                 | Mathematical structure of transactions  |
+| **Verification method** | Five-layer verification + risk score        | dNFT conservation laws + on-chain state |
+| **Verification output** | 0-100 risk score                            | Σ(dNFT)=0 (mathematical necessity)      |
+| **Privacy protection**  | ZKP (PDV)                                   | Zero-Knowledge Proof (ZKP)              |
+| **Source of trust**     | Professional verification service providers | Mathematics and physical laws           |
+| **Applicable scenario** | Agent registration and authentication       | Transaction execution and auditing      |
+
+#### 11.6.4 Complementary Architecture: From Interface Layer to Mathematical Layer
+
+```
+┌─────────────────────────────────────────────┐
+│           Application Layer (Human UI + AI API)              │
+├─────────────────────────────────────────────┤
+│  ERC-8126 Verification Layer (5-layer + Risk Score) │
+│  - Token Verification (ETV) ← verify contract address │
+│  - Code Verification (SCV) ← verify vertex security │
+│  - Wallet Verification (WV) ← verify dNFT balance ✅ │
+├─────────────────────────────────────────────┤
+│  Feynman Diagram Mathematical Layer (dNFT Conservation + On-chain State) │
+│  - Σ(dNFT) = 0 (mathematical necessity)       │
+│  - Creation/annihilation mechanism (cryptographic necessity) │
+│  - Real ↔ Virtual dual-world coupling         │
+├─────────────────────────────────────────────┤
+│           Physical Layer (Blockchain + IoT + NFC)             │
+└─────────────────────────────────────────────┘
+```
+
+**Complete Verification Flow**:
+
+1. **ERC-8126 verifies the Agent**: Does this Agent's wallet contain legitimate dNFT pairs? Is its code secure?
+
+2. **Feynman diagram verifies the transaction**: Is Σ(dNFT) = 0 for this transaction? Are Real and Virtual layer states coupled?
+
+3. **Both pass** → Both humans and AI recognize this transaction.
+
+#### 11.6.5 Human-AI Shared Trust Infrastructure
+
+The combination of ERC-8126 and the Feynman diagram model constitutes a **trust infrastructure recognized by both humans and AI**:
+
+| Standard/Model            | Verification Target      | Verification Method                | Human-Understandable              | AI-Verifiable              |
+| ------------------------- | ------------------------ | ---------------------------------- | --------------------------------- | -------------------------- |
+| **ERC-8004**              | Agent identity           | On-chain registration              | ✅ Yes (name/description)          | ✅ Yes (address/metadata)   |
+| **ERC-8126**              | Agent security           | Five-layer + ZKP                   | ✅ Yes (risk score)                | ✅ Yes (verification proof) |
+| **Feynman Diagram Model** | Transaction authenticity | Conservation laws + on-chain state | ✅ Yes (analogous to double-entry) | ✅ Yes (hash verification)  |
+
+> **Key Insight**: ERC-8126 is trust verification at the **interface layer** ("Is this Agent reliable?"), while the Feynman diagram model is trust verification at the **mathematical layer** ("Is this transaction trustworthy?").
+> Combined: ERC-8126 verifies "whether an Agent is safe," the Feynman diagram verifies "whether a transaction is trustworthy."
+
+#### 11.6.6 Future Research Directions: ERC-8126 + Feynman Diagram
+
+1. **Mapping ERC-8126's Five Verification Layers to the Feynman Diagram Structure**
+
+   * ETV (Token Verification) → Code security of vertices V₁/V₂
+
+   * MCV (Media Content Verification) → Data integrity of propagator G_logistics
+
+   * WV (Wallet Verification) → Authenticity of dNFT balance and transaction history
+
+2. **Feynman Diagram Model Providing Mathematical Foundation for ERC-8126**
+
+   * Current ERC-8126 risk score is an **empirical formula**
+
+   * Future: Derive risk score from first principles (analogous to scattering cross-section calculation in QFT)
+
+3. **Unified Application of Zero-Knowledge Proofs**
+
+   * ERC-8126's PDV (Private Data Verification)
+
+   * Feynman diagram model's ZKP (privacy-preserving credit scoring)
+
+   * Unified as a **composable proof system**
 
 *(End of Chapter 11)*
 
