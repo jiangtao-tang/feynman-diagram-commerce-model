@@ -3,6 +3,8 @@ Decentralized Commerce Feynman Diagram Model - Whitepaper v1.1 (CN &amp; EN)
 # 去中心化商业费曼图模型
 # Decentralized Commerce Feynman Diagram Model
 
+**English version**: [README_EN.md](README_EN.md)
+
 ## 简介 (Introduction)
 
 本仓库包含"去中心化商业费曼图模型"的完整白皮书，包含中英文两个版本。
