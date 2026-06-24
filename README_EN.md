@@ -18,8 +18,8 @@ The model introduces the conceptual framework of **Quantum Field Theory's Feynma
 
 | File | Description |
 |------|-------------|
-| `Feynman_Diagram_Model_for_Decentralized_Commerce_Whitepaper_v1.1_EN.md` | Full English whitepaper (10 chapters + 4 appendices) |
-| `去中心化商业费曼图模型_白皮书_完整版_v1.1.md` | Full Chinese whitepaper (完整版) |
+| `Feynman_Diagram_Model_for_Decentralized_Commerce_Whitepaper_v1.2_EN.md` | Full English whitepaper (10 chapters + 4 appendices) |
+| `去中心化商业费曼图模型_白皮书_完整版_v1.2.md` | Full Chinese whitepaper (完整版) |
 | `Economic_Analysis_of_Decentralized_Commerce_Trust_Mechanism_EN.md` | English economics paper |
 | `assets/` | Feynman diagram images and figures |
 
