@@ -936,6 +936,25 @@ The creation and annihilation of dNFT pairs is precisely the formal expression o
 
 > **Accounting Expression of Conservation Laws**: At any moment in a transaction, the sum of the balance sheets of all participants remains unchanged. The transfer of dNFT pairs is merely the **consolidation and splitting of balance sheets**, not the creation of new value.
 
+3.2.5 Classical Strong Correlation Design
+This model adopts Classical Strong Correlation design for dNFT pairs, rather than quantum entanglement. The differences are as follows:
+
+Dimension	Classical Strong Correlation (This Model)	Quantum Entanglement (True Quantum)
+Implementation	pairId binding + Smart contract enforcement	Quantum system (qubit)
+Correlation	Logical correlation: two NFTs share the same pairId	Physical correlation: measuring one immediately determines the other
+Deployability	✅ Immediately deployable on current EVM chains	❌ Requires quantum blockchain (theoretical stage)
+Quantum Resistance	❌ ECDSA can be broken by Shor's algorithm	✅ Quantum naturally resists quantum (but requires Post-Quantum communication)
+Implementation Points of Classical Strong Correlation:
+
+Atomic Binding at Creation: createPair() mints +dNFT and -dNFT in the same transaction, sharing the same pairId, preventing either from being transferred alone without affecting the other.
+
+State Synchronization Update: Logistics status changes (e.g., shipped) need to simultaneously update the metadata of both NFTs, ensuring +dNFT and -dNFT states are always consistent.
+
+Paired Verification at Annihilation: When executing annihilate(), the contract forcibly checks whether both NFTs corresponding to pairId exist and have matching states, preventing unilateral annihilation.
+
+Not Equal to Quantum Decryption Resistance: Classical strong correlation does not equal quantum decryption resistance (Post-Quantum Cryptography). To resist quantum attacks, the signature algorithm needs to be replaced from ECDSA to CRYSTALS-Dilithium (NIST standard).
+
+Design Choice Explanation: The current choice of classical strong correlation is because it can be immediately deployed on existing EVM chains and already provides sufficient state consistency guarantees. After quantum blockchain matures, migration to true quantum entangled dNFTs is possible.
 #### 3.3 Propagator Stage
 
 $$
