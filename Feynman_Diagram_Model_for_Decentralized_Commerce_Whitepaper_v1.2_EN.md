@@ -1019,6 +1019,7 @@ Outputs:
 
 ```
 Condition 1 (Real layer): -dNFT arrives at buyer's address ✓
+Condition 2 (Virtual layer): +dNFT is held in buyer's escrow account ✓
 Condition 3 (Time constraint): Buyer executes the receipt contract (within the timeout threshold) ✓
 ```
 
