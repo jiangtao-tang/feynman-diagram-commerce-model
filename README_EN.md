@@ -180,3 +180,9 @@ If you find this work valuable, please consider **starring** this repository!
 9. [Comparison with Existing Solutions](#chapter-9-comparison-with-existing-solutions)
 10. [Conclusion and Future Outlook](#chapter-10-conclusion--future-outlook)
 11. [Appendices](#appendices)
+## 📄 Publications
+
+- **An Economic Analysis of Decentralized Commerce Trust Mechanism Based on Feynman Diagram Model**
+  - SSRN: [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6986419](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6986419)
+  - Status: Published (APPROVED, 2026-07-18)
+  - Author: Tao Jiang
