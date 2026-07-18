@@ -32,3 +32,9 @@ This repository contains the complete whitepaper of the "Decentralized Commerce 
 ## 许可 (License)
 
 CC BY-NC-SA 4.0（非商业使用，署名，相同方式共享）
+## 📄 Publications
+
+- **An Economic Analysis of Decentralized Commerce Trust Mechanism Based on Feynman Diagram Model**
+  - SSRN: [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6986419](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6986419)
+  - Status: Published (APPROVED, 2026-07-18)
+  - Author: Tao Jiang
